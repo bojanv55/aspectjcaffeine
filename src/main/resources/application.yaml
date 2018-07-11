@@ -1,0 +1,5 @@
+spring:
+  cache:
+    caffeine:
+      spec: expireAfterWrite=30s
+    cache-names: cachedInts
